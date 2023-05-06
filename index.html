@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js">
+  </script>
+</head>
+
+<body>
+  <section id="rating_state" class=" state">
+
+    <div class="img">
+      <img src="./images/icon-star.svg" alt="">
+    </div>
+
+    <h1>How did we do?</h1>
+
+    <p>
+      Please let us know how we did with your support request. All feedback is appreciated
+      to help us improve our offering!
+    </p>
+
+    <div class="radio_list">
+      <div>
+        <input type="radio" name="point" id="point_1" value="1" class="radiobtn">
+        <label for="point_1">1</label>
+      </div>
+      <div>
+        <input type="radio" name="point" id="point_2" value="2" class="radiobtn">
+        <label for="point_2">2</label>
+      </div>
+      <div>
+        <input type="radio" name="point" id="point_3" value="3" class="radiobtn">
+        <label for="point_3">3</label>
+      </div>
+      <div>
+        <input type="radio" name="point" id="point_4" value="4" class="radiobtn">
+        <label for="point_4">4</label>
+      </div>
+      <div>
+        <input type="radio" name="point" id="point_5" value="5" class="radiobtn" checked>
+        <label for="point_5">5</label>
+      </div>
+    </div>
+    <button onclick="select()">Submit</button>
+  </section>
+  <section id="thank_state" class=" state">
+    <div>
+      <img src="./images/illustration-thank-you.svg" alt="">
+    </div>
+    <div class="selected_point">
+      <span>You selected</span>
+      <span id="selected_point_value">
+
+      </span>
+      <span> out of 5</span>
+    </div>
+    <h1>Thank you!</h1>
+    <p>
+      We appreciate you taking the time to give a rating. If you ever need more support,
+      don’t hesitate to get in touch!
+    </p>
+
+  </section>
+
+
+
+
+  <!-- <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </footer> -->
+
+
+</body>
+
+</html>
