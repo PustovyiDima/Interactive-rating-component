@@ -20,7 +20,6 @@
 }
 
 body {
-    font-size: 62.5%;
     background-color: var(--Very-Dark-Blue);
     font-family: 'Overpass', sans-serif;
     min-height: 100vh;
@@ -28,23 +27,24 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+
 }
 
 .state {
-    width: 350px;
-    min-height: 360px;
+    width: 375px;
+    min-height: 400px;
     border-radius: 15px;
     background-color: var(--Dark-Blue);
-    padding: 20px 25px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 p {
     font-size: 15px;
     color: var(--Light-Grey);
+    margin-bottom: 15px;
 }
 
 
@@ -66,8 +66,8 @@ p {
 
 .state h1 {
     color: var(--White);
-    font-size: 2rem;
-    font-weight: 400;
+    font-size: 1.4rem;
+    font-weight: 700;
 }
 
 
@@ -84,8 +84,8 @@ p {
 }
 
 .radio_list div input[type=radio]~label {
-    width: 40px !important;
-    height: 40px !important;
+    width: 50px !important;
+    height: 50px !important;
     border: none;
     text-align: center;
     align-items: center;
@@ -116,7 +116,7 @@ p {
     border: none;
     border-radius: 45px;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 15px;
     text-transform: uppercase;
     color: var(--White);
     letter-spacing: 3px;
