@@ -33,10 +33,10 @@ body {
 
 .state {
     width: 350px;
-    min-height: 400px;
+    min-height: 360px;
     border-radius: 15px;
     background-color: var(--Dark-Blue);
-    padding: 20px;
+    padding: 20px 25px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -53,7 +53,7 @@ p {
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    background-color: hsla(216, 12%, 54%, 0.3);
+    background-color: hsl(210, 20%, 22%);
     display: flex;
     align-items: center;
 }
@@ -92,7 +92,7 @@ p {
     font-size: 16px;
     border-radius: 50%;
     cursor: pointer;
-    background-color: hsla(216, 12%, 54%, 0.3);
+    background-color: hsl(210, 20%, 22%);
     color: var(--Light-Grey);
     display: flex;
     justify-content: center;
@@ -121,6 +121,11 @@ p {
     color: var(--White);
     letter-spacing: 3px;
     cursor: pointer;
+}
+
+#rating_state button:hover {
+    background-color: var(--White);
+    color: var(--orange);
 }
 
 #thank_state {
